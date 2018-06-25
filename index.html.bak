@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <style>
+            #pink-btn {
+                background-color: pink;
+            }
+            .btn {
+                width: 150px;
+                height: 40px;
+                box-sizing: border-box;
+                padding: 10px;
+                color: white;
+                text-align: center;
+                margin: 10px;
+                display: inline-block;
+            }
+            .btn1 {
+                background-color: blue;
+            }
+            .btn2 {
+                background-color: red;
+            }
+            .btn3 {
+                background-color: green;
+                border-radius: 4px;
+            }
+            .container {
+                width: 600px;
+                /* height: 300px; */
+                overflow: hidden;
+                background-color: red;
+            }
+            .fol {
+                float: left;
+            }
+            .for {
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="pink-btn" class="btn btn1">
+            <span>1</span>
+        </div>
+        <div class="btn btn2">
+            <span>2</span>
+        </div>
+        <div class="btn btn3">
+            <span>3</span>
+        </div>
+        <div class="container">
+            <span class="btn btn1 fol">A</span>
+            <span class="btn btn3 for">B</span>
+        </div>
+    </body>
+</html>

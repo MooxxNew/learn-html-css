@@ -1,0 +1,55 @@
+* {
+    font-family: sans-serif;
+    margin: auto;
+}
+body{
+    background-color: #eee;
+}
+.card {
+    width: 280px;
+    height: 600px;
+    background-color: white;
+    position: relative;
+}
+.profile {
+    width: 280px;
+    height: 280px;
+    position: relative;
+}
+.img {
+    max-width: 100%;
+}
+.img-name {
+    left: 10px;
+    bottom: 10px;
+    color: white;
+    font-size: x-large;
+    position: absolute;
+}
+.edit-icon-button {
+    max-width: 50px;
+    position: absolute;
+    top: 42%;
+    right: 10px;
+    background-color: red;
+    border-radius: 100px;
+}
+.info-lr {
+    position: relative;
+}
+.info-title {
+    font-size: 18px;
+}
+.info-data {
+    font-size: 14px;
+    color: lightgray;
+}
+.info-order {
+    position: absolute;
+    right: 10px;
+    top: 12%;
+}
+.information {
+    padding: 15px;
+    position: relative;
+}
